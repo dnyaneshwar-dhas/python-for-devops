@@ -30,3 +30,18 @@ print("Division is:", division)
 print("multiplication is:", multiplication)
 print("Addition is :", addition)
 print("subtraction is:", subtraction)
+
+#Take input 
+#1
+name = input("Enter your name: ")
+city = input("Enter your city name: ")
+
+print(name)
+print(city)
+
+#2
+name = input("Enter your name: ")
+city = input("Enter city name: ")
+
+print("Hello " + name)
+print("This is nice city, " + city)
