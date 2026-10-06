@@ -45,3 +45,63 @@ city = input("Enter city name: ")
 
 print("Hello " + name)
 print("This is nice city, " + city)
+
+#convert input to integer
+#1
+age = int(input("Enter your age: "))
+
+print(age + 5) 
+
+#2
+num1 = int(input("Enter first num:"))
+num2 = int(input("Enter second num:"))
+print(num1 + num2)
+
+# Arithmetic Operators 
+# Addition
+a = 10
+b = 6
+
+result = a + b
+print(result)
+
+# Subtraction
+
+a = 10
+b = 5
+
+result = a - b 
+print(result)
+
+# Multiplication 
+a = 6
+b = 3
+
+result = a * b 
+print(result) 
+
+# Division 
+a = 10
+b = 2
+
+result = a / b 
+print(result)
+
+# Reminder
+a = 10
+b = 3
+
+result = a % b 
+print(result)
+
+# Floor Division //
+a = 10
+b = 3 
+result = a // b
+print(result) 
+
+# power **
+a = 2
+b = 3   
+result = a ** b
+print(result)
