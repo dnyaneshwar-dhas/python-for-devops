@@ -188,4 +188,46 @@ elif marks >= 60:
 
 else: 
     print("Fail")
-    
+
+
+##Loops 
+#for 
+#(1)
+for i in range(1, 6):
+    print(i)
+
+#(2)
+servers = ["server1", "server2", "server3"]
+for server in servers:
+    print(server)
+
+#(3)
+names = ["Dnyanu", "Sagar", "Amit", "Hrutik", "Sudarshan", "Yash"]
+for name in names:
+    print("Hello Friend", name)
+
+#while
+#(1)
+count = 1
+while count <= 5:
+    print(count)
+    count = count + 1 
+
+#(2)
+count = 10
+while count >= 1:
+    print (count)
+    count = count - 1 
+
+##f-strings
+#(1)
+name = "Omkar"
+age = 22
+print(f"My name is {name}")
+print(f"My name is {age}")
+
+#(2)
+server = "web-svc-1"
+cpu = 85 
+print (f"server {server} cpu is {cpu}% ")
+
