@@ -57,7 +57,7 @@ num1 = int(input("Enter first num:"))
 num2 = int(input("Enter second num:"))
 print(num1 + num2)
 
-*********************************************************
+##*********************************************************##
 ##Arithmetic Operators 
 # Addition         
 a = 10       
@@ -107,7 +107,7 @@ b = 3
 result = a ** b
 print(result)
 
-********************************************************
+##********************************************************##
 ## Comparison Operator 
 # equal to (==)
 a = 10
@@ -150,5 +150,28 @@ b = 20
 result = a <= b
 print(result)
 
+## Condition Statement 
+#if (1)                | (2)
+marks = 80             | age = 20
+if marks >= 50:        | if age >= 18:
+    print("pass")      |    print("You can vote")
 
+## if-else(1)                                |(2)
+age = 20                                     | marks = 80
+if age >= 18:                                | if marks <= 50:
+    print("you are eligible to vote")        |     print ("fail")
+else:                                        | else:
+    print("you are not eligible to vote")    |     print("pass")
 
+## if-elif-else
+marks = 85
+if marks >= 90:
+    print("Pass with A Grade")
+elif marks >= 75:
+    print("Pass with B Grade")
+elif marks >= 60:
+    print("Pass with C Grade")
+
+else: 
+    print("Fail")
+    
