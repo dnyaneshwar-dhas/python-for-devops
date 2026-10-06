@@ -57,12 +57,14 @@ num1 = int(input("Enter first num:"))
 num2 = int(input("Enter second num:"))
 print(num1 + num2)
 
-# Arithmetic Operators 
-# Addition
-a = 10
-b = 6
+##Arithmetic Operators 
 
-result = a + b
+# Addition         
+a = 10       
+b = 6         
+               
+    
+result = a + b  
 print(result)
 
 # Subtraction
@@ -103,5 +105,51 @@ print(result)
 # power **
 a = 2
 b = 3   
+
 result = a ** b
 print(result)
+
+## Comparison Operator 
+# equal to (==)
+a = 10
+b = 10
+
+result = a == b 
+print(result)
+
+# not equal to (!=)
+a = 10
+b = 20
+
+result = a != b 
+print(result)
+
+# greater than (>)
+a = 10
+b = 5
+
+result = a > b
+print(result)
+
+# less than (<)
+a = 15
+b = 20
+
+result = a < b
+print(result)
+
+# greater than or equal to (>=)
+a = 15
+b = 20
+
+result = a >= b
+print(result)
+
+# less than or equal to (<=)
+a = 15      
+b = 20
+
+result = a <= b
+print(result)
+
+
