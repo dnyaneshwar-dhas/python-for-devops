@@ -57,8 +57,8 @@ num1 = int(input("Enter first num:"))
 num2 = int(input("Enter second num:"))
 print(num1 + num2)
 
+*********************************************************
 ##Arithmetic Operators 
-
 # Addition         
 a = 10       
 b = 6          
@@ -107,8 +107,8 @@ b = 3
 result = a ** b
 print(result)
 
+********************************************************
 ## Comparison Operator 
-
 # equal to (==)
 a = 10
 b = 10
