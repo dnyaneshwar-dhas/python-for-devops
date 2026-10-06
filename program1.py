@@ -61,40 +61,38 @@ print(num1 + num2)
 
 # Addition         
 a = 10       
-b = 6         
-               
-    
+b = 6          
 result = a + b  
 print(result)
 
-# Subtraction
 
+# Subtraction
 a = 10
 b = 5
-
 result = a - b 
 print(result)
+
 
 # Multiplication 
 a = 6
 b = 3
-
 result = a * b 
 print(result) 
+
 
 # Division 
 a = 10
 b = 2
-
 result = a / b 
 print(result)
+
 
 # Reminder
 a = 10
 b = 3
-
 result = a % b 
 print(result)
+
 
 # Floor Division //
 a = 10
@@ -102,54 +100,55 @@ b = 3
 result = a // b
 print(result) 
 
+
 # power **
 a = 2
 b = 3   
-
 result = a ** b
 print(result)
 
 ## Comparison Operator 
+
 # equal to (==)
 a = 10
 b = 10
-
 result = a == b 
 print(result)
+
 
 # not equal to (!=)
 a = 10
 b = 20
-
 result = a != b 
 print(result)
+
 
 # greater than (>)
 a = 10
 b = 5
-
 result = a > b
 print(result)
+
 
 # less than (<)
 a = 15
 b = 20
-
 result = a < b
 print(result)
+
 
 # greater than or equal to (>=)
 a = 15
 b = 20
-
 result = a >= b
 print(result)
+
 
 # less than or equal to (<=)
 a = 15      
 b = 20
-
 result = a <= b
 print(result)
+
 
 
