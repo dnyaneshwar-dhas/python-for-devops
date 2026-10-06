@@ -151,17 +151,31 @@ result = a <= b
 print(result)
 
 ## Condition Statement 
-#if (1)                | (2)
-marks = 80             | age = 20
-if marks >= 50:        | if age >= 18:
-    print("pass")      |    print("You can vote")
+#if (1)               
+marks = 80             
+if marks >= 50:        
+    print("pass")      
 
-## if-else(1)                                |(2)
-age = 20                                     | marks = 80
-if age >= 18:                                | if marks <= 50:
-    print("you are eligible to vote")        |     print ("fail")
-else:                                        | else:
-    print("you are not eligible to vote")    |     print("pass")
+#(2)
+age = 20
+if age >= 18:
+    print("You can vote")
+
+
+## if-else(1)                                
+age = 20                                     
+if age >= 18:                               
+    print("you are eligible to vote")        
+else:                                        
+    print("you are not eligible to vote") 
+
+#(2)
+marks = 80
+if marks <= 50: 
+    print("fail")           
+else:
+    print("pass")
+
 
 ## if-elif-else
 marks = 85
