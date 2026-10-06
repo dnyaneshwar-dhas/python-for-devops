@@ -2,7 +2,7 @@ print("Hello World")
 print("My name is Dnyaneshwar")
 print("I am learning python programming")
 ------------------------------------------------------------------
----------------------#Variable---------------------------------
+---------------------#Variable------------------------------------
 #variable is basically a name that refer to some value 
 
 #example:1
@@ -230,4 +230,6 @@ print(f"My name is {age}")
 server = "web-svc-1"
 cpu = 85 
 print (f"server {server} cpu is {cpu}% ")
+
+
 
