@@ -231,5 +231,65 @@ server = "web-svc-1"
 cpu = 85 
 print (f"server {server} cpu is {cpu}% ")
 
+##Lists 
+names = ["Dnyanu","Rahul","Ashish"]
+print(names)
 
+##list Indexing
+tools = ["AWS","Docker","Teraform","jenkins"]
+print(tools[2])
+print(tools[3])
 
+#(2)
+cloud_services = ["Ec2","S3","Rds","vpc","eks"]
+print(cloud_services[0])
+print(cloud_services[2])
+print(cloud_services[4])
+
+##append() -----> use to add the item in the list
+tools = ["AWS","Docker","Kubernetes"]
+print(tools)
+tools.append("Jenkins")
+print(tools)
+
+##remove() --->use to remove from list
+tools = ["aws","docker","kubernetes","jenkins"]
+print(tools)
+tools.remove("jenkins")
+print(tools)
+
+##insert() ---->use to add item in specific position
+tools = ["Aws","Docker","Jenkins"]
+print(tools)
+tools.insert(2,"kubernetes")
+print(tools)
+
+##pop() ---> remove an item using itd index 
+names = ["Omkar","Ajay","Hrutik","Atharva"]
+print(names)
+names.pop(2)
+print(names)
+
+##len() ---> find the number of items 
+
+tools = ["aws","Docker","kubernets","jenkins"]
+print(len(tools))
+
+##in() ---->check if an item exist in list 
+tools = ["AWS","Kubernetes","Jenkins"]
+if "Docker" in tools:
+    print("Docker is available")
+else:
+    print("Docker is not available")
+
+## sort() && reverse()
+#(1)
+numbers = [ 50,10,20,40,30]
+print (numbers)
+numbers.sort()
+
+#(2)
+numbers = [50,10,20,40,30]
+print(numbers)
+numbers.sort(reverse=True)
+print(numbers)
