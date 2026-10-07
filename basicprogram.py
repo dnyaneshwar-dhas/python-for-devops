@@ -310,3 +310,34 @@ name, cloud, status = server
 print(name)
 print(cloud)
 print(status)
+
+##***************************************************************************************##
+##Set{} ----->its store multiple value but it does not all duplicates value 
+tools = {"AWS", "Docker", "Kubernetes"}
+print(tools)
+
+##set--add() and remove()
+#add()
+tools = {"aws","docker","kubernetes"}
+tools.add("jenkins")
+print(tools)
+#remove()
+tools = {"aws","docker","kubernetes"}
+tools.add("jenkins")
+print(tools)
+tools.remove("Docker")
+print(tools)
+
+##set ---in and not in 
+#(1)
+tools = {"AWS","Docker","kubernetes","Jenkins"}
+if "Docker" in tools:
+    print("Docker is available")
+else:
+    print("Docker is not available")
+
+#(2)
+tools = {"AWS", "Docker", "Kubernetes", "Jenkins"}
+
+if "Terraform" not in tools:
+    print("Terraform is not available")
