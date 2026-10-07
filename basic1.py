@@ -293,3 +293,20 @@ numbers = [50,10,20,40,30]
 print(numbers)
 numbers.sort(reverse=True)
 print(numbers)
+
+##Tuple ----------->> it is collection of multiple values ,just like list (you cannot change it  )
+#(1)
+tools = ("AWS","Docker","Kubernetes","Teraform")
+print(tools)
+
+#(2)
+cloud =  ("AWS", "Azure", "AWS", "GCP", "AWS")
+print(cloud.count("AWS"))
+print(cloud.index("GCP"))
+
+##Tuple unpacking 
+server = ("web-server-1","aws","running")
+name, cloud, status = server
+print(name)
+print(cloud)
+print(status)
