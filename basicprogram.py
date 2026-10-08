@@ -341,3 +341,26 @@ tools = {"AWS", "Docker", "Kubernetes", "Jenkins"}
 
 if "Terraform" not in tools:
     print("Terraform is not available")
+
+##Dictionary ----->store data in key -value pair
+student = {
+           "name": "dnyaneshwar",
+           "age": 22,
+           "city": "pune"
+ }
+print(student)
+print(student["name"])
+print(student["age"])
+print(student["city"])
+
+##Add and change Dictionary Value
+student = {
+    "name": "dnyanueshwar",
+    "age": 22,
+    "city": "pune"
+}
+
+student["cource"] = "devops"
+student["age"] = 23
+
+print(student)
