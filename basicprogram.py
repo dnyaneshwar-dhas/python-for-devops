@@ -364,3 +364,27 @@ student["cource"] = "devops"
 student["age"] = 23
 
 print(student)
+
+##pop()it is use to remove a value 
+student = {
+    "name"   : "dnyanu",
+    "age"    : 22,
+    "city"   : "pune",
+    "course" : "Devops" 
+    }
+
+student.pop("city")
+
+print(student)
+
+##del 
+student = {
+    "name": "dnyaneshwar",
+    "age": 22,
+    "city": "pune"
+
+}
+del student ["age"]
+
+print(student)
+
