@@ -362,7 +362,6 @@ student = {
 
 student["cource"] = "devops"
 student["age"] = 23
-
 print(student)
 
 ##pop()it is use to remove a value 
@@ -374,7 +373,6 @@ student = {
     }
 
 student.pop("city")
-
 print(student)
 
 ##del 
@@ -385,6 +383,18 @@ student = {
 
 }
 del student ["age"]
-
 print(student)
+
+## key() ----get all keys
+## value() --get all value
+## items() --get all keys and value
+server = {
+    "name": "web_server_1",
+    "status": "running",
+    "region": "ap-south-1"
+
+}
+print(server.keys())
+print(server.values())
+print(server.items())
 
