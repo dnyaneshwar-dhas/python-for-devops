@@ -398,3 +398,21 @@ print(server.keys())
 print(server.values())
 print(server.items())
 
+##Function Parameters and Arguments 
+#(1)
+def server_status(name):
+    print(name, "is running")
+
+server_status ("web_server")
+server_status ("app_server")
+server_status ("db_server")
+
+#(2)
+def checking_server(name, status):
+    print("Server Name:", name)
+    print("Server Status:", status)
+
+    check_server("web_server", "running")
+    check_server("db_server", "stopped")
+
+    
